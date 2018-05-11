@@ -89,14 +89,6 @@ int DoubleHashTable<T >::h1(T const &obj) const {
 
 template<typename T >
 int DoubleHashTable<T >::h2(T const &obj) const {
-	//h2 = (k/m) modm
-	//int foo = (int) obj;
-	//int km = foo/M;
-
-	//IF OBJ IS NEGATIVE ADD M to result
-	//double foo = obj + 0.5;
-	//int foo2 = (int)foo;
-	int result =(int)(obj/M)%M;
 	if (obj < 0) {
 		result += M;
 	}
@@ -119,8 +111,6 @@ int DoubleHashTable<T >::hT(T const &obj) const {
 			throw overflow();
 		}
 	}
-	//std::cout << "hT index: " << index << "||  int i: " << j<< std::endl;
-
 	return index;
 }
 
@@ -146,7 +136,6 @@ int DoubleHashTable<T >::findObjectIndex(T const &obj) const {
 
 template<typename T >
 bool DoubleHashTable<T >::member(T const &obj) const {
-	// enter your implemetation here 
 	int index = h1(obj);
 	int i = 1;
 	if (array[index] != obj) {//If h1(obj) does not return the correct index
