@@ -1,0 +1,33 @@
+new: 3 
+insert 0 
+insert 8 
+insert 16 
+member 0 1 
+member 8 1 
+member 16 1 
+size 3 
+capacity 8 
+empty 0 
+remove 0 1 
+member 0 0 
+member 8 1 
+member 16 1 
+size 2 
+capacity 8 
+empty 0 
+remove 8 1 
+member 0 0 
+member 8 0 
+member 16 1 
+size 1 
+capacity 8 
+empty 0 
+remove 16 1 
+member 0 0 
+member 8 0 
+member 16 0 
+size 0 
+capacity 8 
+empty 1 
+delete 
+summary 

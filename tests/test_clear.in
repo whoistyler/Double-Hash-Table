@@ -1,0 +1,18 @@
+new: 3 
+insert 0 
+insert 8 
+insert 16 
+insert 32 
+insert 64 
+insert 128 
+insert 256 
+insert 512 
+size 8 
+capacity 8 
+empty 0 
+clear 
+size 0 
+capacity 8 
+empty 1 
+delete 
+summary 

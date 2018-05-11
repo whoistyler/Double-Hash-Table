@@ -1,0 +1,12 @@
+new: 3 
+insert 0 
+insert 8 
+insert 16 
+insert 32 
+insert 64 
+insert 128 
+insert 256 
+insert 512 
+insert! 
+delete 
+summary 

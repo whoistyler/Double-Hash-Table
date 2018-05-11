@@ -1,0 +1,36 @@
+new: 3 
+size 0 
+capacity 8 
+empty 1 
+insert 0 
+size 1 
+capacity 8 
+empty 0 
+member 0 1 
+member 8 0 
+member 16 0 
+bin 0 0 
+bin 1 0 
+bin 3 0 
+insert 8 
+size 2 
+capacity 8 
+empty 0 
+member 0 1 
+member 8 1 
+member 16 0 
+bin 0 0 
+bin 1 8 
+bin 3 0 
+insert 16 
+size 3 
+capacity 8 
+empty 0 
+member 0 1 
+member 8 1 
+member 16 1 
+bin 0 0 
+bin 1 8 
+bin 3 16 
+delete 
+summary 

@@ -1,0 +1,11 @@
+new: 3 
+insert 0 
+member 0 1 
+bin 0 0 
+remove 0 1 
+member 0 0 
+insert 8 
+member 8 1 
+bin 0 8 
+delete 
+summary 
